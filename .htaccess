@@ -1,0 +1,17 @@
+Options -Indexes
+ServerSignature Off
+
+<IfModule mod_headers.c>
+ Header always unset X-Powered-By
+ Header always set X-Content-Type-Options "nosniff"
+ Header always set X-Frame-Options "DENY"
+</IfModule>
+
+<FilesMatch "^\.">
+ Require all denied
+</FilesMatch>
+
+RewriteEngine On
+RewriteRule ^(?:includes|data|modules)(?:/|$) - [F,L]
+RewriteRule ^(?:README\.md|router\.php|TEST_ACCOUNTS\.txt)$ - [F,L]
+RewriteRule \.(?:sqlite|sql|log|bak|backup|ini)$ - [F,L]

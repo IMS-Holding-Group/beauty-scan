@@ -1,0 +1,30 @@
+@font-face {
+ font-family: "Font Awesome 6 Free";
+ font-style: normal;
+ font-weight: 900;
+ font-display: swap;
+ src: url("fa-solid-900.woff2") format("woff2") }
+.fa-solid {
+ display: inline-block;
+ font-family: "Font Awesome 6 Free";
+ font-style: normal;
+ font-weight: 900;
+ line-height: 1 }
+.fa-bars:before { content: "\f0c9" }
+.fa-right-to-bracket:before { content: "\f2f6" }
+.fa-user-plus:before { content: "\f234" }
+.fa-gauge:before { content: "\f624" }
+.fa-barcode:before { content: "\f02a" }
+.fa-pump-soap:before { content: "\e06b" }
+.fa-triangle-exclamation:before { content: "\f071" }
+.fa-bell:before { content: "\f0f3" }
+.fa-user:before { content: "\f007" }
+.fa-shield-halved:before { content: "\f3ed" }
+.fa-arrow-right-from-bracket:before { content: "\f2f5" }
+.fa-file-lines:before { content: "\f15c" }
+.fa-pen:before { content: "\f304" }
+.fa-trash:before { content: "\f1f8" }
+.fa-plus:before { content: "\f067" }
+.fa-check:before { content: "\f00c" }
+.fa-eye:before { content: "\f06e" }
+.fa-eye-slash:before { content: "\f070" }
