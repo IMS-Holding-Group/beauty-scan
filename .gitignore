@@ -1,0 +1,8 @@
+.env
+TEST_ACCOUNTS.txt
+data/*
+*.log
+*.bak
+*.backup
+*.sqlite
+__pycache__/
